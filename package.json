@@ -1,0 +1,24 @@
+{
+  "name": "testproject",
+  "version": "1.0.0",
+  "description": "test Project ",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "author": "Mandeep",
+  "license": "ISC",
+  "engineStrict": true,
+  "engines": {
+    "node": ">=14.17.3",
+    "npm": ">=6.0.0"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "fs": "0.0.1-security",
+    "http": "0.0.1-security",
+    "mongoose": "^8.1.1",
+    "nodemon": "^3.0.3",
+    "path": "^0.12.7"
+  }
+}
